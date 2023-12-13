@@ -1,0 +1,141 @@
+header{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+body{
+    background: #80002A;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .40s ease;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+body{
+    background: #80002A;
+}
+
+section{
+    padding: 0 20%;
+    margin-top: 20px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #FA9C1B;
+    font-family: 'Bungee', sans-serif;
+}
+
+.quote-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-gap: 1.0rem;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.quotes-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    grid-gap: 1.0rem;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.box1{
+    position: relative;
+    margin-top: 0rem;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFED3;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+
+.box1 p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 420;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.box{
+    position: relative;
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFED3;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+
+.box h2{
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #80002A;
+    font-family: 'Bungee', sans-serif;
+}
+
+.box p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 420;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    text-align: justify;
+}
